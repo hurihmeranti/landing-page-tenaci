@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.header {
+    background: #f6f6f6;
+    border-bottom: #000000;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+.header .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.header ul li a {
+    font-size: 1.1rem;
+    margin-left: 40px;
+}
+
+.header .btn {
+    background: #ebebeb;
+    font-size: 1.1rem;
+    border-style: outset;
+    border: 2px solid #e0e0e0;
+}
+
+.header .btn:hover {
+    background: #272727;
+    font-size: 1.1rem;
+    color:#e0e0e0;
+    border-style: outset;
+    border: 2px solid #e0e0e0;
+}
+
+/* body-1 */
+section .body-1 .body-1 {
+    margin-top: 4rem;
+    height: 100%;
+    width: 100%;
+}
+
+section .body-1 img {
+    width: 100%;  
+}
+
+section .body-1 h1 {
+    font-size: 3.3rem;
+}
+
+section .body-1 p {
+    font-size: 1.4em;
+}
+
+section .body-1 button {
+    background: #272727;
+    font-size: 1.4em;
+    color: #ebebeb;
+}
+
+section .body-1 button:hover {
+    background: transparent;
+    border: #272727 px solid;
+    font-size: 1.4em;
+    color: #202020;
+}
+/* finish body-1 */
+
+.body-market {
+    height: 100% ;
+}
+
+.body-market h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.body-market a{
+    background: #272727;
+    color: #ebebeb;
+}
+
+.body-market a {
+    background: #272727;
+    color: #f1f1f1;
+    border: none;
+    
+}
+
+.body-market  a:hover {
+    background: transparent;
+    border: #272727 2px solid;
+    color: #202020;
+}
